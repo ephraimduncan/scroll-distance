@@ -4,6 +4,10 @@ A tiny macOS menu bar app that measures how far you've scrolled — and shows it
 
 Every trackpad two-finger scroll and mouse-wheel turn is captured, converted from on-screen travel into physical distance using your display's actual size, and accumulated into a running total (meters/kilometers, or miles).
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="ScrollDistance menu bar panel showing a running scroll total, unit toggle, and controls" width="320">
+</p>
+
 ## Features
 
 - **Live menu bar readout** — your total distance, updating as you scroll.
@@ -53,3 +57,7 @@ xcodebuild -project ScrollDistance.xcodeproj -scheme ScrollDistance -configurati
 ## Requirements
 
 - macOS 13 (Ventura) or later.
+
+## License
+
+[MIT](LICENSE) © Ephraim Duncan
